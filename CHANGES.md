@@ -1,3 +1,13 @@
+## 0.2.1-preview.1 2023-12-19
+
+This is an experimental release meant to ease testing of the new typed
+API. It is not meant for public consumption.
+
+- Experiment with a typed API
+  ([#48](https://github.com/dialohq/ocaml-grpc/pull/22)) ([@mbarbin](https://github.com/mbarbin))
+- More PR merged since 0.2.0 (undocumented, see git history for more
+  details).
+
 ## 0.2.0 2023-10-23
 
 - Report HTTP2 error status when it's not OK
