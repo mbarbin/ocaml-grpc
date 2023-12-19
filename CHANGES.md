@@ -1,3 +1,13 @@
+## 0.2.1-preview.3 (unreleased)
+
+This is an experimental release meant to ease testing of the new typed
+API. It is not meant for public consumption.
+
+- Experiment with a typed API
+  ([#48](https://github.com/dialohq/ocaml-grpc/pull/22)) ([@mbarbin](https://github.com/mbarbin))
+- More PR merged since 0.2.0 (undocumented, see git history for more
+  details).
+
 ## Unreleased
 - Fix bug in Grpc-lwt-client to fetch status code from response header ([#58](https://github.com/dialohq/ocaml-grpc/pull/58)) ([acerone85](https://github.com/acerone85)) review by ([@quernd](https://github.com/quernd))
 - Update Async dependency to v0.17.0 ([#62](https://github.com/dialohq/ocaml-grpc/pull/62) ([@tmcgilchrist](https://github.com/tmcgilchrist))
