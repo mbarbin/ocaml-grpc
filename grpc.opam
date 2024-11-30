@@ -15,9 +15,9 @@ authors: [
 ]
 license: "BSD-3-Clause"
 tags: ["network" "rpc" "serialisation"]
-homepage: "https://github.com/dialohq/ocaml-grpc"
+homepage: "https://github.com/mbarbin/ocaml-grpc"
 doc: "https://dialohq.github.io/ocaml-grpc"
-bug-reports: "https://github.com/dialohq/ocaml-grpc/issues"
+bug-reports: "https://github.com/mbarbin/ocaml-grpc/issues"
 depends: [
   "dune" {>= "3.7"}
   "ocaml" {>= "4.08"}
@@ -41,4 +41,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/dialohq/ocaml-grpc.git"
+dev-repo: "git+https://github.com/mbarbin/ocaml-grpc.git"

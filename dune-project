@@ -20,7 +20,7 @@
 (maintainers "Daniel Quernheim <grpc@quernd.uber.space>")
 
 (source
- (github dialohq/ocaml-grpc))
+ (github mbarbin/ocaml-grpc))
 
 (documentation "https://dialohq.github.io/ocaml-grpc")
 
