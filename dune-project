@@ -37,7 +37,7 @@
   (bigstringaf
    (>= 0.9.1))
   (h2
-   (>= 0.9.0))
+   (>= 0.13.0))
   (odoc
    (and
     (>= 2.4.0)
@@ -57,7 +57,7 @@
   (grpc
    (= :version))
   (h2
-   (>= 0.9.0))
+   (>= 0.13.0))
   (lwt
    (>= 5.3.0))
   stringext))
@@ -77,7 +77,7 @@
   (grpc
    (= :version))
   (h2
-   (>= 0.9.0))
+   (>= 0.13.0))
   (ppx_jane
    (>= v0.16.0))
   stringext))
@@ -89,11 +89,11 @@
   "Functionality for building gRPC services and rpcs with `eio`.")
  (depends
   (eio
-   (>= 0.12))
+   (>= 1.2))
   (grpc
    (= :version))
   (h2
-   (>= 0.9.0))
+   (>= 0.13.0))
   stringext))
 
 (package
@@ -105,7 +105,7 @@
   (grpc
    (= :version))
   (ocaml-protoc-plugin
-   (>= 4.5))))
+   (>= 6.1.0))))
 
 (package
  (name grpc-protoc)
@@ -140,12 +140,12 @@
   (core_unix
    (>= v0.16.0))
   (eio_main
-   (>= 0.12))
+   (>= 1.2))
   grpc-async
   grpc-eio
   grpc-lwt
   (h2
-   (>= 0.9.0))
+   (>= 0.13.0))
   h2-async
   h2-eio
   h2-lwt-unix
@@ -158,7 +158,7 @@
     (>= 2.2.1)
     :with-test))
   (ocaml-protoc-plugin
-   (>= 4.5))
+   (>= 6.1.0))
   ppx_deriving
   ppx_deriving_yojson
   (ppx_jane

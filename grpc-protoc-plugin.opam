@@ -20,7 +20,7 @@ bug-reports: "https://github.com/dialohq/ocaml-grpc/issues"
 depends: [
   "dune" {>= "3.7"}
   "grpc" {= version}
-  "ocaml-protoc-plugin" {>= "4.5"}
+  "ocaml-protoc-plugin" {>= "6.1.0"}
   "odoc" {with-doc}
 ]
 build: [

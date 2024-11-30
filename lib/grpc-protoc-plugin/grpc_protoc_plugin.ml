@@ -1,14 +1,14 @@
 module type S = Ocaml_protoc_plugin.Service.Rpc
 
 let encode (type a)
-    (module M : Ocaml_protoc_plugin.Runtime.Runtime'.Service.Message
+    (module M : Ocaml_protoc_plugin.Spec.Message
       with type t = a) (a : a) =
-  a |> M.to_proto |> Ocaml_protoc_plugin.Runtime.Runtime'.Writer.contents
+  a |> M.to_proto |> Ocaml_protoc_plugin.Writer.contents
 
 let decode (type a)
-    (module M : Ocaml_protoc_plugin.Runtime.Runtime'.Service.Message
+    (module M : Ocaml_protoc_plugin.Spec.Message
       with type t = a) buffer =
-  buffer |> Ocaml_protoc_plugin.Runtime.Runtime'.Reader.create |> M.from_proto
+  buffer |> Ocaml_protoc_plugin.Reader.create |> M.from_proto
   |> function
   | Ok r -> r
   | Error e ->
