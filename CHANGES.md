@@ -1,4 +1,4 @@
-## 0.2.1-preview.3 (unreleased)
+## 0.2.1-preview.3 (2024-12-01)
 
 This is an experimental release meant to ease testing of the new typed
 API. It is not meant for public consumption.
